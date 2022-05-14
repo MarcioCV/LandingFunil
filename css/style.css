@@ -13,6 +13,8 @@ background: linear-gradient(197deg, rgba(205,88,48,1) 0%, rgba(138,1,59,1) 13%, 
 }
 
 iframe{
+    width: 48vw !important;
+    height: 26vw !important;
     border-radius: 10px;
 }
 
@@ -31,15 +33,14 @@ a{
 
 .robo{
     display: flex;
-    justify-content: center;
 }
 
 
 .div-buttons{
-    margin-top: 25px;
+    margin-top: 1.3vw;
     display: flex;
     justify-content: space-between;
-    width: 550px;
+    width: 29vw;
 }
 
 .button-gradient{
@@ -47,9 +48,9 @@ a{
     color: white;
     border-radius: 50px;
     border: 0;
-    width: 250px;
-    height: 70px;
-    font-size: 25px;
+    width: 13vw;
+    height: 4vw;
+    font-size: 1.3vw;
 }
 
 .button-transparent{
@@ -57,13 +58,13 @@ a{
     border: 1px solid white;
     border-radius: 50px;
     color: white;
-    width: 250px;
-    height: 70px;
-    font-size: 25px;
+    width: 13vw;
+    height: 4vw;
+    font-size: 1.3vw;
 }
 
 #h2-phrase{
-    font-size: 60px;
+    font-size: 3vw;
     line-height: 90%;
 }
 
@@ -88,13 +89,13 @@ a{
 }
 
 .text_app{
-    font-size: 20px;
+    font-size: 1vw;
     text-align: start;
     width: 28vw;
 }
 
 .gradient_font{
-    font-size: 72px;
+    font-size: 4vw;
     background: -webkit-linear-gradient(#FF006C, #FF622C);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -111,6 +112,11 @@ a{
     position: fixed;
     width: 100%;
 }
+.apresentation-text{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
 .nav-items{
     align-items: center;
     display: flex;
@@ -125,6 +131,12 @@ a{
     font-weight: 900;
 }
 
+.apresentation-line{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    align-self: flex-end;
+}
 
 #logo{
     max-width: 200px;
