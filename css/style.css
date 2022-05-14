@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    background: rgb(205,88,48);
+background: linear-gradient(197deg, rgba(205,88,48,1) 0%, rgba(138,1,59,1) 13%, rgba(136,8,8,1) 18%, rgba(0,0,0,1) 35%);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+iframe{
+    border-radius: 10px;
+}
+
+p{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.robo{
+    display: flex;
+    justify-content: center;
+}
+
+
+.div-buttons{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+}
+
+.button-gradient{
+    background: -webkit-linear-gradient(#FF006C, #FF622C);
+    color: white;
+    border-radius: 50px;
+    border: 0;
+    width: 250px;
+    height: 70px;
+    font-size: 25px;
+}
+
+.button-transparent{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    width: 250px;
+    height: 70px;
+    font-size: 25px;
+}
+
+#h2-phrase{
+    font-size: 60px;
+    line-height: 90%;
+}
+
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_itens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 90vw;
+}
+
+.home-text{
+    width: 33vw;
+}
+
+.text_app{
+    font-size: 20px;
+    text-align: start;
+    width: 28vw;
+}
+
+.gradient_font{
+    font-size: 72px;
+    background: -webkit-linear-gradient(#FF006C, #FF622C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.general{
+    display: flex;    
+    flex-direction: column;
+}
+.navbar{
+    padding-top: 20px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100%;
+}
+.nav-items{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%; 
+    padding-left: 5%;
+}
+
+.a-nav{
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+#logo{
+    max-width: 200px;
+}
