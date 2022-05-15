@@ -176,6 +176,10 @@ ul a {
     display: none;
 }
 
+.active{
+    display: none;
+}
+
 @media(max-width:900px) {
     #btn_mobile {
         display: block;
