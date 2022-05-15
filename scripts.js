@@ -4,4 +4,4 @@ function toggle_Menu() {
     const nav = document.getElementById("nav");
     nav.classList.toggle('active');
 }
-btn_mobile.addEventListener('click'.toggle_Menu);
+btn_mobile.addEventListener('click',toggle_Menu);
