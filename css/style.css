@@ -151,4 +151,27 @@ a{
 
 #logo{
     max-width: 200px;
-}   
+}
+
+.button_mobile{
+    background-color: transparent;
+    border:none;
+    color:#fff;
+    font-size: 36px;
+    float:right;
+    display:flex ;
+    align-items: center;
+    margin-left: 19px;
+    display: none;
+}
+
+@media(max-width:900px){
+    .button_mobile{
+        display: block;
+    }
+    .a-nav{
+        display:none ;
+    }
+    
+}
+
