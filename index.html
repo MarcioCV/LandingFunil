@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Page Title</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    </head>
 </head>
 
 <body>
@@ -18,69 +21,61 @@
             <div class="nav-items">
                 <img src="./img/logo_rend.svg" alt="" id="logo">
                 <nav id="nav">
-                    <div class="desktop_nav">
-                        <ul class="ul_nav">
-                            <li class="li_nav"><a href="#home">HOME</a></li>
-                            <li class="li_nav"><a href="#apresentacao">APRESENTAÇÃO</a></li>
-                            <li class="li_nav"><a href="#robo">ROBÔ</a></li>
-                            <li class="li_nav"> <a href="#contatos">CONTATOS</a></li>
-                        </ul>
-                    </div>
-                </nav>
-                <nav class="mobile_nav" >
-                    <button id="btn_mobile">Menu</button>
-                    <div class="div_mobile_nav" id="div_mobile_nav">
-                        <ul class="ul_nav">
-                            <li class="li_nav"><a href="#home">MOBILE</a></li>
-                            <li class="li_nav"><a href="#apresentacao">APRESENTAÇÃO</a></li>
-                            <li class="li_nav"><a href="#robo">ROBÔ</a></li>
-                            <li class="li_nav"> <a href="#contatos">CONTATOS</a></li>
-                        </ul>
-                    </div>
-                </nav>
+                    <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                        aria-expanded="false">
+                        <span id="hamburger"></span>
+                    </button>
+                    <ul id="menu" role="menu">
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#apresentacao">APRESENTAÇÃO</a></li>
+                        <li><a href="#robo">ROBÔ</a></li>
+                        <li> <a href="#contatos">CONTATOS</a></li>
+                    </ul>
             </div>
+            </nav>
         </div>
-        <div class="home">
-            <div class="home_itens">
-                <div class="home-text">
-                    <h2 class="gradient_font">Ganhe dinheiro</h2>
-                    <h2 id="h2-phrase">todos os dias de forma automática!</h2>
-                    <br>
-                    <br>
-                    <p class="text_app">
-                        Descubra agora o app que mais de 4 milhões de pessoas estão
-                        ultilizando para ganhar dinheiro de forma automática
-                        e segura no mercado financeiro.
-                    </p>
-                    <div class="div-buttons">
-                        <button class="button-gradient"><a href="https://raqsy.com/s/QSK59"
-                                target="_blank">CADASTRAR</a></button>
-                        <button class="button-transparent"><a>SAIBA MAIS</a></button>
-                    </div>
+    </div>
+    <div class="home">
+        <div class="home_itens">
+            <div class="home-text">
+                <h2 class="gradient_font">Ganhe dinheiro</h2>
+                <h2 id="h2-phrase">todos os dias de forma automática!</h2>
+                <br>
+                <br>
+                <p class="text_app">
+                    Descubra agora o app que mais de 4 milhões de pessoas estão
+                    ultilizando para ganhar dinheiro de forma automática
+                    e segura no mercado financeiro.
+                </p>
+                <div class="div-buttons">
+                    <button class="button-gradient"><a href="https://raqsy.com/s/QSK59"
+                            target="_blank">CADASTRAR</a></button>
+                    <button class="button-transparent"><a>SAIBA MAIS</a></button>
+                </div>
 
+            </div>
+            <iframe width="900" height="500" src="https://www.youtube.com/embed/Um63OQz3bjo"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="robo">
+        <div class="apresentation">
+            <div class="apr-line">
+                <img style="max-width: 35px" src="./img/cellphone_icon_rend.svg" alt="">
+                <div class="apresentation-text">
+                    <h2>
+                        Mobilidade e praticidade
+                    </h2>
+                    <p id="p-celular">
+                        É necessário apenas um celular e um sinal de internet.
+                    </p>
                 </div>
-                <iframe width="900" height="500" src="https://www.youtube.com/embed/Um63OQz3bjo"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                <img style="max-width: 280px;" src="./img/left_line_ball.svg" alt="">
             </div>
         </div>
-        <div class="robo">
-            <div class="apresentation">
-                <div class="apr-line">
-                    <img style="max-width: 35px" src="./img/cellphone_icon_rend.svg" alt="">
-                    <div class="apresentation-text">
-                        <h2>
-                            Mobilidade e praticidade
-                        </h2>
-                        <p id="p-celular">
-                            É necessário apenas um celular e um sinal de internet.
-                        </p>
-                    </div>
-                    <img style="max-width: 280px;" src="./img/left_line_ball.svg" alt="">
-                </div>
-            </div>
-        </div>
+    </div>
     </div>
     <script src="scripts.js" type="text/javascript"></script>
 </body>
