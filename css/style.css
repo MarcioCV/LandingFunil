@@ -31,7 +31,7 @@ a {
     color: #fff;
 }
 
-ul {
+#menu {
     display: flex;
     list-style: none;
     justify-content: space-between;
@@ -40,11 +40,11 @@ ul {
     font-weight: 900;
 }
 
-ul li  {
+.li_nav  {
     margin-left: 50px;
 }
 
-ul a {
+.a_nav {
     display: block;
     padding: .5rem;
 }
@@ -150,6 +150,7 @@ ul a {
     display: flex;
     width: 50vw;
     justify-content: right;
+    flex-direction: column;
 }
 
 .apr-line {
@@ -175,19 +176,42 @@ ul a {
 #btn-mobile{
     display: none;
 }
+#iframe_mobile{
+    display: none;
+}
 @media (max-width: 900px) {
     #menu {
-      display: block;
-      position: absolute;
-      width: 100%;
-      top: 70px;
-      right: 0px;
-      background: #e7e7e7;
-      transition: 0.6s;
-      z-index: 1000;
-      height: 0px;
-      visibility: hidden;
-      overflow-y: hidden;
+        display: flex;
+        position: absolute;
+        width: 100%;
+        top: 90px;
+        right: 0px;
+        background-color: rgba(0, 0, 0, 0.6);
+        transition: 0.6s;
+        z-index: 1000;
+        align-items: center;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #iframe_desktop{
+        display: none;
+    }
+
+    .home-text {
+        width: 100vw !important;
+    }
+
+    #iframe_mobile{
+        display: inline !important;
+    }
+
+    .li_nav  {
+        margin-top: 10vh;
+        margin-left: 0 !important;
     }
     #nav.active #menu {
       height: calc(100vh - 70px);
@@ -211,6 +235,7 @@ ul a {
     #hamburger {
       border-top: 2px solid;
       width: 20px;
+      color: white;
     }
     #hamburger::after,
     #hamburger::before {
