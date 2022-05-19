@@ -272,7 +272,6 @@ a {
 
 @media(max-width: 900px) {
     .gradient_font {
-        margin-top: 10vh;
         display: flex;
         align-items: center;
         flex-direction: column;
