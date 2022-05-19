@@ -268,7 +268,7 @@ a {
     }
 
 
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         #button_title {
             display: flex;
             text-align: center;
@@ -306,9 +306,9 @@ a {
 
         #iframe_mobile {
             display: inline !important;
-            width: 49vh !important;
-            height: 48vw !important;
-            border-radius: 10px;
+            width: 82vw !important;
+            height: 28vh !important;
+            border-radius: 20px;
             margin-left: -13px;
         }
 
