@@ -106,10 +106,11 @@ a {
     width: 33vw;
 }
 
+
 .text_app {
     font-size: 1vw;
     text-align: start;
-    width: 28vw;
+    width: 100%;
 }
 
 .gradient_font {
@@ -269,6 +270,11 @@ a {
 
 
     @media (max-width: 600px) {
+
+        #text{
+            width: 76vw;
+        }
+
         #button_title {
             display: flex;
             text-align: center;
@@ -287,7 +293,7 @@ a {
             margin-top: 22px;
             display: flex;
             font-size: 3vw;
-            width: 50vh;
+            width: 100%;
             margin: 14px 14px 14px 0px;
         }
 
