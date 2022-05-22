@@ -202,7 +202,7 @@ a {
     width: 25em;
     margin-top: 23rem;
 }
-}
+
 @media (max-width: 900px) {
     #menu {
         display: flex;
