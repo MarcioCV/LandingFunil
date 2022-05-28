@@ -58,7 +58,6 @@ a {
     margin-top: 1.3vw;
     display: flex;
     justify-content: space-between;
-    width: 29vw;
 }
 
 .button-gradient {
@@ -182,7 +181,7 @@ a {
     display: none;
 }
 
-.apr-column1{
+.apr-column1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -192,12 +191,12 @@ a {
     height: 55em;
 }
 
-.apr-column2{
+.apr-column2 {
     display: flex;
     flex-direction: column;
 }
 
-.apr-column3{
+.apr-column3 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -295,7 +294,7 @@ a {
 
     @media (max-width: 600px) {
 
-        #text{
+        #text {
             width: 76vw;
         }
 
@@ -343,18 +342,21 @@ a {
         }
 
         .button-gradient {
-            width: 44vw !important;
             margin: 10px;
-            height: 17px !important;
+            font-size: 11px;
+            font-weight: bold;
             justify-content: space-between;
-
+            width: 26vw !important;
+            height: 35px !important;
         }
 
         .button-transparent {
-            width: 44vw !important;
             margin: 10px;
-            height: 17px !important;
             justify-content: space-between;
+            font-size: 11px;
+            font-weight: 200;
+            width: 26vw !important;
+            height: 35px !important;
         }
 
     }
