@@ -358,23 +358,22 @@ a {
             width: 30vw !important;
             height: 45px !important;
         }
+
+        #paragraph {
+            text-decoration: underline;
+            margin: 10px;
+        }
+
+        #paragraph_second {
+            font-size: 4vw;
+            background: -webkit-linear-gradient(#FF006C, #FF622C);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 10px;
+            font-weight: bolder;
+
+        }
     }
-
-    #paragraph {
-        text-decoration: underline;
-        margin: 10px;
-    }
-
-    #paragraph_second {
-        font-size: 4vw;
-        background: -webkit-linear-gradient(#FF006C, #FF622C);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        margin: 10px;
-        font-weight: bolder;
-
-    }
-
 }
 
 @media screen and (min-width: 601px) and (max-width:900px) {
@@ -459,7 +458,34 @@ a {
     }
 }
 
+@media screen and (min-width: 1070px) and (max-width:2506px) {
+    #paragraph{
+        display: none;
+    }
+    #paragraph_second{
+        display: none;
+    }
 
+}
+@media (max-width:1109px) and (min-width:918px) {
+    #paragraph{
+        display: none;
+    }
+    #paragraph_second{
+        display: none;
+    }
+
+}
+
+@media(max-width:1025) and (min-width:929) {
+    #paragraph{
+        display: none;
+    }
+    #paragraph_second{
+        display: none;
+    }
+
+}
 
 
 ::-webkit-scrollbar {
