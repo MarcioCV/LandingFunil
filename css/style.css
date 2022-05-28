@@ -343,24 +343,124 @@ a {
 
         .button-gradient {
             margin: 10px;
-            font-size: 11px;
+            font-size: 15px;
             font-weight: bold;
             justify-content: space-between;
             width: 30vw !important;
-            height: 40px !important;
+            height: 44px !important;
         }
 
         .button-transparent {
             margin: 10px;
             justify-content: space-between;
-            font-size: 11px;
+            font-size: 15px;
             font-weight: 200;
             width: 30vw !important;
-            height: 40px !important;
+            height: 45px !important;
         }
+    }
+
+    #paragraph {
+        text-decoration: underline;
+        margin: 10px;
+    }
+
+    #paragraph_second {
+        font-size: 4vw;
+        background: -webkit-linear-gradient(#FF006C, #FF622C);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin: 10px;
+        font-weight: bolder;
 
     }
+
 }
+
+@media screen and (min-width: 601px) and (max-width:900px) {
+    #text {
+        width: 76vw;
+    }
+
+    #button_title {
+        display: flex;
+        text-align: center;
+        font-size: 8vw;
+        font-weight: 900;
+    }
+
+    #h2-phrase {
+        display: flex;
+        align-items: center;
+        font-size: 7vw;
+        width: 76vw;
+    }
+
+    #second_title {
+        display: flex;
+        font-size: 3vw;
+        width: 102%;
+        margin: 14px 14px 25px 0px;
+    }
+
+    .home-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 75vh;
+    }
+
+    #iframe_desktop {
+        display: none;
+    }
+
+    #iframe_mobile {
+        display: inline !important;
+        width: 82vw !important;
+        height: 28vh !important;
+        border-radius: 20px;
+        margin-left: -13px;
+    }
+
+    .assistant_iframe {
+        height: 100vh;
+    }
+
+    .button-gradient {
+        margin: 10px;
+        justify-content: space-between;
+        font-size: 16px;
+        font-weight: 900;
+        width: 18vw !important;
+        height: 43px !important;
+    }
+
+    .button-transparent {
+        margin: 10px;
+        justify-content: space-between;
+        font-size: 16px;
+        font-weight: 200;
+        width: 18vw !important;
+        height: 43px !important;
+    }
+
+    #paragraph {
+        text-decoration: underline;
+        margin: 10px;
+    }
+
+    #paragraph_second {
+        font-size: 22px;
+        background: -webkit-linear-gradient(#FF006C, #FF622C);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin: 10px;
+        font-weight: bolder;
+    }
+}
+
+
+
 
 ::-webkit-scrollbar {
     width: 13px;
