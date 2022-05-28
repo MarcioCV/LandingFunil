@@ -370,8 +370,23 @@ a {
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             margin: 10px;
-            font-weight: bolder;
+            font-weight: 900;
 
+        }
+
+        #linha_completa_desktop {
+            display: none;
+
+        }
+
+        #linha_completa_mobile {
+            margin-top: -10vh
+        }
+
+        #logo {
+            width: 118vw;
+            height: 3vh;
+            margin: 10px;
         }
     }
 }
@@ -456,37 +471,46 @@ a {
         margin: 10px;
         font-weight: bolder;
     }
+
+    #logo {
+        width: 118vw;
+        height: 3vh;
+        margin: 10px;
+    }
+
+    @media screen and (min-width: 1070px) and (max-width:2506px) {
+        #paragraph {
+            display: none;
+        }
+
+        #paragraph_second {
+            display: none;
+        }
+
+    }
+
+    @media (max-width:1109px) and (min-width:918px) {
+        #paragraph {
+            display: none;
+        }
+
+        #paragraph_second {
+            display: none;
+        }
+
+    }
+
+    @media(max-width:1025) and (min-width:929) {
+        #paragraph {
+            display: none;
+        }
+
+        #paragraph_second {
+            display: none;
+        }
+
+    }
 }
-
-@media screen and (min-width: 1070px) and (max-width:2506px) {
-    #paragraph{
-        display: none;
-    }
-    #paragraph_second{
-        display: none;
-    }
-
-}
-@media (max-width:1109px) and (min-width:918px) {
-    #paragraph{
-        display: none;
-    }
-    #paragraph_second{
-        display: none;
-    }
-
-}
-
-@media(max-width:1025) and (min-width:929) {
-    #paragraph{
-        display: none;
-    }
-    #paragraph_second{
-        display: none;
-    }
-
-}
-
 
 ::-webkit-scrollbar {
     width: 13px;
