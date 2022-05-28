@@ -185,9 +185,11 @@ a {
 .apr-column1{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     /* justify-content: space-around; */
     width: 25em;
-    margin-top: 7em;
+    margin-top: 10em;
+    height: 55em;
 }
 
 .apr-column2{
@@ -198,9 +200,10 @@ a {
 .apr-column3{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
+    justify-content: space-between;
     width: 25em;
-    margin-top: 23rem;
+    margin-top: 23em;
+    height: 55em;
 }
 
 @media (max-width: 900px) {
