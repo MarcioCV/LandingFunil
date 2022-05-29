@@ -204,7 +204,7 @@ a {
     height: 55em;
 }
 
-.depoimentos{
+.depoimentos {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -302,18 +302,14 @@ a {
 
     @media (max-width: 600px) {
 
-<<<<<<< HEAD
         .div-buttons {
             margin-top: 1.3vw;
             display: flex;
             justify-content: space-between;
             width: 70vw;
         }
-        
-        #text{
-=======
+
         #text {
->>>>>>> 75760703ccaa7a9e3b2dae6cb081499b14849db2
             width: 76vw;
         }
 
