@@ -217,7 +217,16 @@ a {
     display:none;
 }
 
+.saiba_text{
+    display: none;
+}
+
+
 @media (max-width: 900px) {
+    .saiba_text{
+        display: flex;
+    }
+
     #menu {
         display: flex;
         position: absolute;
@@ -384,10 +393,7 @@ a {
         }
 
         #paragraph_second {
-            font-size: 4vw;
-            background: -webkit-linear-gradient(#FF006C, #FF622C);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            font-size: 4vw !important;
             margin: 10px;
             font-weight: 900;
 
@@ -399,6 +405,7 @@ a {
         }
 
         #linha_completa_mobile {
+            display: flex;
             margin-top: -10vh;
         }
 
