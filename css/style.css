@@ -213,6 +213,10 @@ a {
     height: 35vh;
 }
 
+#linha_completa_mobile {
+    display:none;
+}
+
 @media (max-width: 900px) {
     #menu {
         display: flex;
@@ -395,7 +399,7 @@ a {
         }
 
         #linha_completa_mobile {
-            margin-top: -10vh
+            margin-top: -10vh;
         }
 
         #logo {
