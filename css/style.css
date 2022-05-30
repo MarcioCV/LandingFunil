@@ -222,10 +222,10 @@ span{
 }
 
 #linha_completa_mobile {
-    display:none;
+    display: none;
 }
 
-.saiba_text{
+.saiba_text {
     display: none;
 }
 
@@ -259,7 +259,7 @@ span{
 }
 
 @media (max-width: 900px) {
-    .saiba_text{
+    .saiba_text {
         display: flex;
     }
 
@@ -442,7 +442,6 @@ span{
 
         #linha_completa_mobile {
             display: flex;
-            margin-top: -10vh;
         }
 
         #logo {
@@ -450,8 +449,110 @@ span{
             height: 3vh;
             margin: 10px;
         }
+
+        #apr_mobile_ {
+            display: flex;
+            flex-direction: column;
+            width: 94%;
+            align-items: end;
+            /* margin-top: -14vh; */
+        }
+
+        #mobile_column_1 {
+            font-size: 18px;
+            text-align: right;
+            width: 223px;
+        }
+
+        .p-celular_r {
+            width: 33vw;
+            margin-left: 11vh;
+            margin-top: 12px;
+            text-align: right;
+        }
+
+        #phone_desktop {
+            display: none;
+        }
+
+        #apr_desktop_two {
+            display: none;
+        }
+
+        #apr_mobile_three {
+            display: flex;
+            flex-direction: column;
+            width: 96%;
+            align-items: end;
+        }
+
+        .apr-column1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            /* justify-content: space-around; */
+            /* width: 27em; */
+            margin-top: 2em;
+            height: 75em;
+        }
+    }
+
+    #money_desktop {
+        display: none;
+    }
+
+    #apr_mobile_four {
+        display: flex;
+        flex-direction: column;
+        width: 96%;
+        align-items: end;
+        /* margin-bottom: 12vh; */
+    }
+
+    #cupom_desktop {
+        display: none;
+    }
+
+    .apresentation-text {
+        align-items: end;
+    }
+
+
+    .apr-column3 {
+        width: 25em;
+        height: 79em;
+        margin-top: 15em
+    }
+
+    .p-celular_l {
+        width: 33vw;
+        text-align: left;
+    }
+
+    .mobile_other_side {
+        font-size: 18px;
+        text-align: right;
+        width: 223px;
+    }
+
+    .apresentation-text_l {
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+    }
+
+    #mobile_column_1_l {
+        font-size: 18px;
+        width: 153px;
+    }
+    #trader_desktop{
+        display: none;
     }
 }
+
+
+
+
 
 @media screen and (min-width: 601px) and (max-width:900px) {
     #text {
@@ -540,39 +641,9 @@ span{
         margin: 10px;
     }
 
-    @media screen and (min-width: 1070px) and (max-width:2506px) {
-        #paragraph {
-            display: none;
-        }
-
-        #paragraph_second {
-            display: none;
-        }
-
-    }
-
-    @media (max-width:1109px) and (min-width:918px) {
-        #paragraph {
-            display: none;
-        }
-
-        #paragraph_second {
-            display: none;
-        }
-
-    }
-
-    @media(max-width:1025) and (min-width:929) {
-        #paragraph {
-            display: none;
-        }
-
-        #paragraph_second {
-            display: none;
-        }
-
-    }
 }
+
+
 
 ::-webkit-scrollbar {
     width: 13px;
