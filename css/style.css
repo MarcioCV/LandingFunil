@@ -31,6 +31,10 @@ a {
     color: #fff;
 }
 
+span{
+    color: white;
+}
+
 #menu {
     display: flex;
     list-style: none;
@@ -204,13 +208,17 @@ a {
     height: 55em;
 }
 
+.h2-line{
+    width: 260px;
+}
+
 .depoimentos {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
     flex-direction: row;
     width: 99vw;
     height: 35vh;
+    margin-top: 50px;
 }
 
 #linha_completa_mobile {
@@ -221,6 +229,34 @@ a {
     display: none;
 }
 
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-content{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-color: rgba(000, 000, 000, 0.5);
+}
+
+
+.img_depoimentos{
+    position: absolute;
+    z-index: -1;
+    border-radius: 40px;
+    width: 200px;
+    height: 300px;
+}
+
+.stars{
+    max-width: 135px;
+}
 
 @media (max-width: 900px) {
     .saiba_text{
