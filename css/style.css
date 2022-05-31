@@ -610,6 +610,12 @@ a {
         #trader_desktop {
             display: none;
         }
+        #seguro_desktop{
+            display: none;
+        }
+        #rocket_desktop{
+            display: none;
+        }
     }
 
 }
@@ -808,6 +814,13 @@ a {
     }
 
     #trader_desktop {
+        display: none;
+    }
+
+    #seguro_desktop{
+        display: none;
+    }
+    #rocket_desktop{
         display: none;
     }
 }
