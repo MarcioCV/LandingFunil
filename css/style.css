@@ -18,7 +18,7 @@ iframe {
     border-radius: 10px;
 }
 
-span{
+span {
     color: #fff;
 }
 
@@ -225,7 +225,7 @@ a {
     display: none;
 }
 
-.h2-line{
+.h2-line {
     width: 260px;
 }
 
@@ -246,13 +246,13 @@ a {
     display: none;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.card-content{
+.card-content {
     width: 200px;
     height: 300px;
     display: flex;
@@ -263,7 +263,7 @@ a {
 }
 
 
-.img_depoimentos{
+.img_depoimentos {
     position: absolute;
     z-index: -1;
     border-radius: 40px;
@@ -271,7 +271,7 @@ a {
     height: 300px;
 }
 
-.stars{
+.stars {
     max-width: 135px;
 }
 
@@ -359,7 +359,7 @@ a {
 
     #nav.active #hamburger::before {
         transform: rotate(135deg);
-    }
+    } 
 
     #nav.active #hamburger::after {
         transform: rotate(-135deg);
@@ -483,8 +483,9 @@ a {
         }
 
         .p-celular_r {
-            width: 33vw;
+            width: 40vw;
             text-align: right;
+            margin-top: 10px;
         }
 
         #phone_desktop {
@@ -511,59 +512,61 @@ a {
             margin-top: 2em;
             height: 75em;
         }
+        #money_desktop {
+            display: none;
+        }
+    
+        #apr_mobile_four {
+            display: flex;
+            flex-direction: column;
+            width: 96%;
+            align-items: end;
+            /* margin-bottom: 12vh; */
+        }
+    
+        #cupom_desktop {
+            display: none;
+        }
+    
+        .apresentation-text {
+            align-items: end;
+        }
+    
+    
+        .apr-column3 {
+            width: 25em;
+            height: 79em;
+            margin-top: 15em
+        }
+    
+        .p-celular_l {
+            width: 40vw;
+            text-align: left;
+            margin-top: 10px;
+        }
+    
+        .mobile_other_side {
+            font-size: 18px;
+            text-align: right;
+            width: 223px;
+        }
+    
+        .apresentation-text_l {
+            display: flex;
+            flex-direction: column;
+            align-self: flex-end;
+        }
+    
+        #mobile_column_1_l {
+            font-size: 18px;
+            width: 153px;
+        }
+    
+        #trader_desktop {
+            display: none;
+        }
     }
 
-    #money_desktop {
-        display: none;
-    }
-
-    #apr_mobile_four {
-        display: flex;
-        flex-direction: column;
-        width: 96%;
-        align-items: end;
-        /* margin-bottom: 12vh; */
-    }
-
-    #cupom_desktop {
-        display: none;
-    }
-
-    .apresentation-text {
-        align-items: end;
-    }
-
-
-    .apr-column3 {
-        width: 25em;
-        height: 79em;
-        margin-top: 15em
-    }
-
-    .p-celular_l {
-        width: 33vw;
-        text-align: left;
-    }
-
-    .mobile_other_side {
-        font-size: 18px;
-        text-align: right;
-        width: 223px;
-    }
-
-    .apresentation-text_l {
-        display: flex;
-        flex-direction: column;
-        align-self: flex-end;
-    }
-
-    #mobile_column_1_l {
-        font-size: 18px;
-        width: 153px;
-    }
-    #trader_desktop{
-        display: none;
-    }
 }
 
 
@@ -650,6 +653,14 @@ a {
         margin: 10px;
         font-weight: bolder;
     }
+    #linha_completa_desktop {
+        display: none;
+
+    }
+
+    #linha_completa_mobile {
+        display: flex;
+    }
 
     #logo {
         width: 118vw;
@@ -657,8 +668,106 @@ a {
         margin: 10px;
     }
 
+    #apr_mobile_ {
+        display: flex;
+        flex-direction: column;
+        width: 94%;
+        align-items: end;
+        /* margin-top: -14vh; */
+    }
+
+    #mobile_column_1 {
+        font-size: 18px;
+        text-align: right;
+        width: 223px;
+    }
+
+    .p-celular_r {
+        width: 33vw;
+        text-align: right;
+        margin-top: 10px;
+    }
+
+    #phone_desktop {
+        display: none;
+    }
+
+    #apr_desktop_two {
+        display: none;
+    }
+
+    #apr_mobile_three {
+        display: flex;
+        flex-direction: column;
+        width: 96%;
+        align-items: end;
+    }
+
+    .apr-column1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* justify-content: space-around; */
+        /* width: 27em; */
+        margin-top: 2em;
+        height: 75em;
+    }
+    #money_desktop {
+        display: none;
+    }
+
+    #apr_mobile_four {
+        display: flex;
+        flex-direction: column;
+        width: 96%;
+        align-items: end;
+        /* margin-bottom: 12vh; */
+    }
+
+    #cupom_desktop {
+        display: none;
+    }
+
+    .apresentation-text {
+        align-items: end;
+    }
+
+
+    .apr-column3 {
+        width: 25em;
+        height: 79em;
+        margin-top: 15em
+    }
+
+    .p-celular_l {
+        width: 40vw;
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    .mobile_other_side {
+        font-size: 18px;
+        text-align: right;
+        width: 223px;
+    }
+
+    .apresentation-text_l {
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+    }
+
+    #mobile_column_1_l {
+        font-size: 18px;
+        width: 153px;
+    }
+
+    #trader_desktop {
+        display: none;
+    }
 }
 
+    
 
 
 ::-webkit-scrollbar {
