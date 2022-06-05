@@ -858,7 +858,6 @@ a {
 
 }
 
-<<<<<<< HEAD
 .div_review_video{
     opacity:1;
     transition: opacity .3s ease;
@@ -869,8 +868,6 @@ a {
     opacity: 0;
 }
 
-=======
->>>>>>> 506a5e75d2e78190d0821b02ca749decbf58cddc
 ::-webkit-scrollbar {
     width: 13px;
     height: 13px;
