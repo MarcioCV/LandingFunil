@@ -16,12 +16,12 @@
 </head>
 
 <body>
-    <div class="review_video" id="video_review">
+    <div class="review_video fade" id="video_review">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qM3imMiERdU" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
-        <button class="close_video" id="close_video" onclick="toggleVideo()"><img src="./img/x.svg" alt=""></button>
+        <button class="close_video" id="close_video"><img src="./img/x.svg" alt=""></button>
     </div>
     <div class="general">
         <div class="navbar">
@@ -87,7 +87,6 @@
             <div class="apr-column1 ">
                 <div class="apr-line" id="apr_mobile_">
                     <img style="max-width: 38px" src="./img/cellphone_icon_rend.svg" id="phone_mobile">
-                    <img style="max-width: 38px" src="./img/cellphone_icon_rend.svg" id="phone_desktop">
                     <div class="apresentation-text">
                         <h2 id='mobile_column_1'>
                             Mobilidade e praticidade
@@ -99,7 +98,6 @@
                 </div>
                 <div class="apr-line" id="apr_mobile_two">
                     <img style="max-width: 50px" src="./img/trader_icon_rend.svg" id="trader_mobile">
-                    <img style="max-width: 50px;" src="./img/trader_icon_rend.svg" id="trader_desktop">
                     <div class="apresentation-text">
                         <h2>
                             Não é preciso saber operar
@@ -111,7 +109,6 @@
                 </div>
                 <div class="apr-line" id="apr_mobile_three">
                     <img style="max-width: 49px" src="./img/money_sleep_icon_rend.svg" id="money_mobile">
-                    <img style="max-width: 50px;" src="./img/money_sleep_icon_rend.svg" id="money_desktop">
                     <div class="apresentation-text">
                         <h2 id='mobile_column_1'>
                             Ganhe dinheiro dormindo
@@ -124,7 +121,6 @@
 
                 <div class="apr-line" id="apr_mobile_four">
                     <img style="max-width: 50px" src="./img/cupom_icon_rend.svg" id="cupom_mobile">
-                    <img style="max-width: 50px" src="./img/cupom_icon_rend.svg" id="cupom_desktop">
                     <div class="apresentation-text">
                         <h2 id='mobile_column_1'>
                             Indique e ganhe !
@@ -148,7 +144,7 @@
                 <div class="apr-line" id="apr_mobile_five">
                     <img style="max-width: 50px" src="./img/trader_icon_rend.svg" id="trader_mobile">
                     <div class="apresentation-text_l">
-                        <img style="max-width: 50px " src="./img/trader_icon_rend.svg" id="trader_desktop">
+
                         <h2 id='mobile_column_1_l'>
                             Não é preciso saber operar!
                         </h2>
@@ -162,7 +158,6 @@
                     <img style="max-width: 50px" src="./img/seguro_icon_rend.svg" id="seguro_mobile">
                     <div class="apresentation-text_l" id="apr_mobile_five">
                         <h2 id='mobile_column_1_l'>
-                            <img style="max-width: 50px" src="./img/seguro_icon_rend.svg" id="seguro_desktop">
                             Segurança
                         </h2>
                         <p class="p-celular_l">
@@ -175,7 +170,6 @@
                 <div class="apr-line">
                     <img style="max-width: 50px" src="./img/rocket_icon_rend.svg" id="rocket_mobile">
                     <div class="apresentation-text_l" id="apr_mobile_five">
-                        <img style="max-width: 50px" src="./img/rocket_icon_rend.svg" id="rocket_desktop">
                         <h2 id='mobile_column_1_l'>
                             Empreenda com a ferramenta
                         </h2>
@@ -196,7 +190,7 @@
                 alt="">
             <div class="card-content">
                 <div class="button_border">
-                    <button class="button_story" onclick="toggleVideo()"> </button>
+                    <button class="button_story"></button>
                 </div>
                 <span style="margin-bottom: 15px;">josé da silva</span>
             </div>
@@ -210,7 +204,7 @@
                 alt="">
             <div class="card-content">
                 <div class="button_border">
-                    <button class="button_story" onclick="console.log('viadinho')"> </button>
+                    <button class="button_story"> </button>
                 </div>
                 <span style="margin-bottom: 15px;">josé da silva</span>
             </div>

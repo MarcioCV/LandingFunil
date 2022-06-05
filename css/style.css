@@ -865,7 +865,14 @@ a {
     }
 }
 
+#video_review{
+    opacity:1;
+    transition: opacity .3s ease;
+}
 
+#video_review.fade{
+    opacity: 0;
+}
 ::-webkit-scrollbar {
     width: 13px;
     height: 13px;
