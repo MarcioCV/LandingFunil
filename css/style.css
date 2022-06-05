@@ -585,6 +585,7 @@ a {
         text-align: right;
         margin-top: 10px;
     }
+
     .apr-column1 {
         display: flex;
         flex-direction: column;
@@ -595,17 +596,9 @@ a {
         height: 75em;
     }
 
-    #money_desktop {
-        display: none;
-    }
-    #cupom_desktop {
-        display: none;
-    }
-
     .apresentation-text {
         align-items: end;
     }
-
 
     .apr-column3 {
         width: 25em;
@@ -636,24 +629,19 @@ a {
         width: 153px;
     }
 
-    #apr_mobile_five {
+    #apr_mobile_ {
+
+        display: flex;
+        flex-direction: column;
+        width: 96%;
+        align-items: end;
+    }
+    #apr_mobile_one {
         display: flex;
         flex-direction: column;
         width: 86%;
+        align-items: flex-start;
     }
-
-    #apr_mobile_six {
-        display: flex;
-        flex-direction: column;
-        width: 86%;
-    }
-
-    #apr_mobile_seven {
-        display: flex;
-        flex-direction: column;
-        width: 86%;
-    }
-
 }
 
 @media screen and (min-width: 601px) and (max-width:900px) {
@@ -752,7 +740,7 @@ a {
         margin: 10px;
     }
 
-    .apr_mobile_ {
+    #apr_mobile_ {
         display: flex;
         flex-direction: column;
         width: 94%;
@@ -775,13 +763,6 @@ a {
         display: none;
     }
 
-    #apr_mobile_three {
-        display: flex;
-        flex-direction: column;
-        width: 96%;
-        align-items: end;
-    }
-
     .apr-column1 {
         display: flex;
         flex-direction: column;
@@ -792,13 +773,6 @@ a {
         height: 75em;
     }
 
-    #apr_mobile_four {
-        display: flex;
-        flex-direction: column;
-        width: 96%;
-        align-items: end;
-        /* margin-bottom: 12vh; */
-    }
 
     .apresentation-text {
         align-items: end;
@@ -833,29 +807,12 @@ a {
         font-size: 18px;
         width: 153px;
     }
-
-    #apr_mobile_five {
+    #apr_mobile_one {
         display: flex;
         flex-direction: column;
         width: 86%;
+        align-items: flex-start;
     }
-
-    #apr_mobile_six {
-        display: flex;
-        flex-direction: column;
-        width: 86%;
-    }
-
-    #apr_mobile_seven {
-        display: flex;
-        flex-direction: column;
-        width: 86%;
-    }
-
-    #trader_mobile {
-        height: 7vh;
-    }
-
 }
 
 .div_review_video{
