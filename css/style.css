@@ -295,9 +295,20 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     width: 99vw;
-    height: 35vh;
+}
+
+.perguntas{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.depoimentos h2 {
+   margin-top: 10px;
+   margin-bottom: 50px;
 }
 
 #linha_completa_mobile {
@@ -311,16 +322,6 @@ a {
 .h2-line {
     width: 260px;
 }
-
-.depoimentos {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    width: 99vw;
-    height: 35vh;
-    margin-top: 50px;
-}
-
 #linha_completa_mobile {
     display: none;
 }
