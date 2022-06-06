@@ -373,7 +373,6 @@ a {
     display: none;
 }
 
-<<<<<<< HEAD
 .perguntas{
     display: flex;
     align-items: center;
@@ -410,8 +409,6 @@ a {
     margin-right: 15px;
 }
 
-=======
->>>>>>> 16d36a52871a180a1d9fbb4ac578f3c84ac7ab7c
 @media (max-width: 900px) {
     .saiba_text {
         display: flex;
@@ -515,18 +512,6 @@ a {
         width: 70vw;
     }
 
-<<<<<<< HEAD
-=======
-    .home-text {
-        display: flex;
-        flex-direction: column;
-        /* justify-content: center; */
-        align-items: center;
-        /* justify-content: space-between; */
-        height: 75vh;
-    }
-
->>>>>>> 16d36a52871a180a1d9fbb4ac578f3c84ac7ab7c
     #text {
         width: 76vw;
     }
@@ -553,7 +538,6 @@ a {
         margin: 14px 14px 14px 0px;
     }
 
-<<<<<<< HEAD
     .home-text {
         display: flex;
         flex-direction: column;
@@ -563,8 +547,6 @@ a {
         height: 75vh;
     }
 
-=======
->>>>>>> 16d36a52871a180a1d9fbb4ac578f3c84ac7ab7c
     #iframe_desktop {
         display: none;
     }
@@ -599,19 +581,6 @@ a {
         height: 45px !important;
     }
 
-<<<<<<< HEAD
-=======
-    #button_depoimentos {
-        font-size: 10vw;
-        background: -webkit-linear-gradient(#FF006C, #FF622C);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    .carousel_desktop{
-        display: none !important;
-    } 
-
->>>>>>> 16d36a52871a180a1d9fbb4ac578f3c84ac7ab7c
     #paragraph {
         text-decoration: underline;
         margin: 10px;
@@ -707,10 +676,6 @@ a {
         width: 96%;
         align-items: end;
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> 16d36a52871a180a1d9fbb4ac578f3c84ac7ab7c
     #apr_mobile_one {
         display: flex;
         flex-direction: column;
@@ -886,7 +851,6 @@ a {
         font-size: 18px;
         width: 153px;
     }
-<<<<<<< HEAD
     #apr_mobile_one {
         display: flex;
         flex-direction: column;
@@ -897,22 +861,6 @@ a {
 
 .div_review_video{
     opacity:1;
-=======
-    .carousel-item{
-        display: none;
-    }
-    .carousel_mobile{
-        display: inline;
-    }
-     .carousel_desktop{
-        display: none !important;
-    } 
-}
-
-
-.div_review_video {
-    opacity: 1;
->>>>>>> 16d36a52871a180a1d9fbb4ac578f3c84ac7ab7c
     transition: opacity .3s ease;
 }
 
