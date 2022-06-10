@@ -1,6 +1,7 @@
 const btnMobile = document.getElementById('btn-mobile');
 const card = document.getElementsByClassName('card_content');
-var videos = document.querySelectorAll('.div_review_video');
+const videos_div = document.querySelectorAll('.div_review_video');
+const videos = document.querySelectorAll('.video_review');
 const button_open = document.querySelectorAll('.button_story')
 const button_close = document.querySelectorAll('.close_video')
 
@@ -18,17 +19,23 @@ function toggleMenu(event) {
 }
 
 function toggleVideo(i) {
-  if (videos[i].style.display != "flex") {
-    videos[i].style.display = "flex";
+  if (videos_div[i].style.display != "flex") {
+    videos_div[i].style.display = "flex";
+    
+    videos_div[i].classList.toggle('fade')
     setTimeout(() => {
-      videos[i].classList.toggle('fade')
+      videos[i].play();
     }, 100);
+
   }
   else {
-    videos[i].classList.toggle('fade')
+    videos_div[i].classList.toggle('fade')
+    
     setTimeout(() => {
-      videos[i].style.display = "none";
+      videos_div[i].style.display = "none";
+      
     }, 300);
+    videos[i].pause();
   }
 }
 
@@ -41,6 +48,14 @@ button_open[4].addEventListener('click', function () { toggleVideo(4) }, false)
 button_open[5].addEventListener('click', function () { toggleVideo(5) }, false)
 button_open[6].addEventListener('click', function () { toggleVideo(6) }, false)
 button_open[7].addEventListener('click', function () { toggleVideo(7) }, false)
+button_open[8].addEventListener('click', function () { toggleVideo(0) }, false)
+button_open[9].addEventListener('click', function () { toggleVideo(1) }, false)
+button_open[10].addEventListener('click', function () { toggleVideo(2) }, false)
+button_open[11].addEventListener('click', function () { toggleVideo(3) }, false)
+button_open[12].addEventListener('click', function () { toggleVideo(4) }, false)
+button_open[13].addEventListener('click', function () { toggleVideo(5) }, false)
+button_open[14].addEventListener('click', function () { toggleVideo(6) }, false)
+button_open[15].addEventListener('click', function () { toggleVideo(7) }, false)
 
 button_close[0].addEventListener('click', function () { toggleVideo(0) }, false)
 button_close[1].addEventListener('click', function () { toggleVideo(1) }, false)
@@ -50,6 +65,8 @@ button_close[4].addEventListener('click', function () { toggleVideo(4) }, false)
 button_close[5].addEventListener('click', function () { toggleVideo(5) }, false)
 button_close[6].addEventListener('click', function () { toggleVideo(6) }, false)
 button_close[7].addEventListener('click', function () { toggleVideo(7) }, false)
+
+
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
 

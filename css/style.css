@@ -242,10 +242,12 @@ a {
 
 .apresentation {
     display: flex;
-    width: 100vw;
+    width: 100%;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 40px;
 }
+
 
 .apr-line {
     display: flex;
@@ -300,7 +302,7 @@ a {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    width: 99vw;
+    width: 100%;
 }
 
 .perguntas {
@@ -343,7 +345,7 @@ a {
 }
 
 .card-content {
-    width: 200px;
+    width: 15vw;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -358,7 +360,7 @@ a {
     position: absolute;
     z-index: -1;
     border-radius: 40px;
-    width: 200px;
+    width: 15vw;
     height: 300px;
 }
 
@@ -419,6 +421,59 @@ a {
     display: none;
 }
 
+<<<<<<< HEAD
+=======
+#Emerson{
+    background-image: url(/img/Emerson.jpeg)  !important;
+}
+
+#Ezequias{
+    background-image: url(/img/Ezequias.jpeg)  !important;
+}
+
+#Felipe{
+    background-image: url(/img/Felipe.jpeg)  !important;
+}
+
+#gabriel{
+    background-image: url(/img/gabriel.jpeg)  !important;
+}
+
+#Johnatas{
+    background-image: url(/img/Johnatas.jpeg)  !important;
+}
+
+#Leandro{
+    background-image: url(/img/Leandro.jpeg)  !important;
+}
+
+#Reinaldo{
+    background-image: url(/img/Reinaldo.jpeg)  !important;
+}
+
+#Tamara{
+    background-image: url(/img/Tamara.jpeg)  !important;
+}
+
+.cadastro_binance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.div_btn_binance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+}
+.div_btn_binance button{
+    width: 345px;
+}
+>>>>>>> 83c88e6b44564e302628ee6f5f08b7722fc98861
 
 @media only screen and (max-width: 900px) {
 
