@@ -1,0 +1,10 @@
+@media only screen and (max-width: 375px) {
+    .Mynavbar {
+        padding-top: 20px;
+        height: 77px;
+        background-color: rgba(0, 0, 0, 0.6);
+        position: fixed;
+        width: 100%;
+    }
+
+}
