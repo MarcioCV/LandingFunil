@@ -1,5 +1,9 @@
 @media only screen and (max-width: 900px) {
 
+    ol,ul{
+        padding: 0px !important;
+    }
+
     .apresentation{
         gap: 0;
     }
@@ -11,7 +15,7 @@
         display: flex;
         position: absolute;
         width: 100%;
-        top: 77px;
+        top: 90px;
         right: 0px;
         background-color: rgba(0, 0, 0, 0.6);
         transition: 0.6s;
@@ -205,7 +209,6 @@
     #mobile_column_1 {
         font-size: 18px;
         text-align: right;
-        width: 223px;
     }
 
     .p-celular_r {
@@ -221,7 +224,7 @@
         /* justify-content: space-around; */
         margin-top: 0em;
         height: 72em;
-        max-width: 182px;
+        max-width: 40vw;
     }
     
     .apresentation-text {
@@ -229,9 +232,9 @@
     }
 
     .apr-column3 {
-        width: 181px;
+        width: 40vw;
         height: 84em;
-        margin-top: 13em
+        margin-top: 13em;
     }
 
     .p-celular_l {
@@ -246,15 +249,8 @@
         width: 223px;
     }
 
-    .apresentation-text_l {
-        display: flex;
-        flex-direction: column;
-        align-self: flex-end;
-    }
-
     #mobile_column_1_l {
         font-size: 18px;
-        width: 153px;
     }
 
     .apr_mobile_ {
@@ -408,12 +404,6 @@
         align-items: end;
     }
 
-    #mobile_column_1 {
-        font-size: 18px;
-        text-align: right;
-        width: 223px;
-    }
-
     .p-celular_r {
         width: 33vw;
         text-align: right;
@@ -422,21 +412,6 @@
 
     #apr_desktop_two {
         display: none;
-    }
-
-    .apr-column1 {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        /* justify-content: space-around; */
-        /* width: 27em; */
-        margin-top: 2em;
-        height: 75em;
-    }
-
-
-    .apresentation-text {
-        align-items: end;
     }
 
     .p-celular_l {
@@ -451,11 +426,6 @@
         width: 223px;
     }
 
-    .apresentation-text_l {
-        display: flex;
-        flex-direction: column;
-        align-self: flex-end;
-    }
 
     #mobile_column_1_l {
         font-size: 18px;
