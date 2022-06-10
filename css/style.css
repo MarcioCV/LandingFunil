@@ -421,41 +421,39 @@ a {
     display: none;
 }
 
-<<<<<<< HEAD
-=======
-#Emerson{
-    background-image: url(/img/Emerson.jpeg)  !important;
+#Emerson {
+    background-image: url(/img/Emerson.jpeg) !important;
 }
 
-#Ezequias{
-    background-image: url(/img/Ezequias.jpeg)  !important;
+#Ezequias {
+    background-image: url(/img/Ezequias.jpeg) !important;
 }
 
-#Felipe{
-    background-image: url(/img/Felipe.jpeg)  !important;
+#Felipe {
+    background-image: url(/img/Felipe.jpeg) !important;
 }
 
-#gabriel{
-    background-image: url(/img/gabriel.jpeg)  !important;
+#gabriel {
+    background-image: url(/img/gabriel.jpeg) !important;
 }
 
-#Johnatas{
-    background-image: url(/img/Johnatas.jpeg)  !important;
+#Johnatas {
+    background-image: url(/img/Johnatas.jpeg) !important;
 }
 
-#Leandro{
-    background-image: url(/img/Leandro.jpeg)  !important;
+#Leandro {
+    background-image: url(/img/Leandro.jpeg) !important;
 }
 
-#Reinaldo{
-    background-image: url(/img/Reinaldo.jpeg)  !important;
+#Reinaldo {
+    background-image: url(/img/Reinaldo.jpeg) !important;
 }
 
-#Tamara{
-    background-image: url(/img/Tamara.jpeg)  !important;
+#Tamara {
+    background-image: url(/img/Tamara.jpeg) !important;
 }
 
-.cadastro_binance{
+.cadastro_binance {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -463,17 +461,17 @@ a {
     gap: 15px;
 }
 
-.div_btn_binance{
+.div_btn_binance {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     gap: 15px;
 }
-.div_btn_binance button{
+
+.div_btn_binance button {
     width: 345px;
 }
->>>>>>> 83c88e6b44564e302628ee6f5f08b7722fc98861
 
 @media only screen and (max-width: 900px) {
 
@@ -1102,6 +1100,7 @@ a {
         width: 30vw !important;
         height: 45px !important;
     }
+
     #paragraph_second {
         font-size: 18px !important;
         background: -webkit-linear-gradient(#FF006C, #FF622C);
@@ -1109,6 +1108,7 @@ a {
         -webkit-text-fill-color: transparent;
         margin: 10px;
         font-weight: bolder;
+    }
 }
 
 @media only screen and (max-width: 375px) {
@@ -1119,5 +1119,5 @@ a {
         position: fixed;
         width: 100%;
     }
-    
+
 }
