@@ -26,7 +26,7 @@
         overflow-y: hidden;
         flex-direction: column;
         justify-content: flex-start;
-    }
+    } 
 
 
     #button_desktop {
@@ -154,15 +154,18 @@
         justify-content: space-between;
         font-size: 16px;
         font-weight: 900;
-        width: 34vw !important;
-        height: 49px !important;
+        width: 65vw !important;
+        height: 44px !important;
     }
-
-    .gradient_font {
-        font-size: 2em;
-        font-weight: bold;
+    .div_btn_binance{
+        margin: 10px;
+        justify-content: space-between;
+        font-size: 2px;
+        font-weight: 900;
+        width: 90vw !important;
+        height: 0vh !important;
     }
-
+    
     .button-transparent {
         margin: 10px;
         justify-content: space-between;
@@ -175,12 +178,6 @@
     #paragraph {
         text-decoration: underline;
         margin: 10px;
-    }
-
-    #paragraph_second {
-        font-size: 4vw !important;
-        margin: 10px;
-        font-weight: 900;
     }
 
     #linha_completa_desktop {
@@ -272,21 +269,15 @@
         font-weight: 900;
     }
 
-    .h-2_mobile {
-        height: 5vh;
-        font-size: 19px;
-        width: 35vh;
-    }
-
     #mobile_sub {
-        margin-bottom: 8px;
+        margin-bottom: 61px;
     }
 
     .pergunta {
         display: flex;
         flex-direction: row;
-        padding: 20px;
-        width: 600px;
+        align-items: center;
+        width: 80vw;
     }
 
     .questions_mobile {
@@ -344,20 +335,15 @@
         height: 100vh;
     }
 
-    .button-gradient {
-        margin: 10px;
-        justify-content: space-between;
-        font-size: 14px;
-        font-weight: 900;
-        width: 57vw !important;
-        height: 5vh !important;
-    }
-
     .gradient_font {
-        font-size: 2em;
+        font-size: 25px;
         font-weight: bold;
     }
 
+    .gradient_mobile{
+        font-size: 22px;
+        font-weight: bold;
+    }
     .button-transparent {
         margin: 10px;
         justify-content: space-between;
@@ -374,7 +360,7 @@
     }
 
     #paragraph_second {
-        font-size: 22px !important;
+        font-size: 18px !important;
         background: -webkit-linear-gradient(#FF006C, #FF622C);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -438,20 +424,11 @@
         width: 86%;
         align-items: flex-start;
     }
-
-    .title_mobile {
-        letter-spacing: 3px;
-        font-weight: 900;
-    }
-
     .h-2_mobile {
-        height: 5vh;
+        height: 9vh;
         font-size: 19px;
-        width: 35vh;
-    }
-
-    #mobile_sub {
-        margin-bottom: 30px;
+        font-weight: 900;
+        width: 28vh;
     }
 
     .pergunta {
