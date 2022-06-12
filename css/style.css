@@ -510,6 +510,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 25px;
+    height: 75px;
 }
 
 .button_wpp{

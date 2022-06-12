@@ -448,5 +448,10 @@
         display: flex;
         justify-content: end;
     }
+    .button_telegram{
+        font-size: 1.8vw;
+        height: 75px !important;
+        
+    }
 }
 
