@@ -51,19 +51,20 @@
     .button-gradient {
         margin: 10px;
         justify-content: space-between;
-        font-size: 13px;
+        font-size: 10px;
         font-weight: 900;
-        width: 59vw !important;
+        width: 83vw !important;
         height: 36px !important;
     }
     .button-transparent {
         margin: 10px;
         justify-content: space-between;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 900;
-        width: 59vw !important;
+        width: 81vw !important;
         height: 42px !important;
     }
+    
     #carouselExampleIndicators {
         width: 100vw;
     }
@@ -71,5 +72,20 @@
         width: 75vw !important;
         height: 55vw !important;
         border-radius: 10px;
+    }
+    .borda_mentor {
+        width: 45vw;
+        height: 45vw;
+    }
+    
+    .foto_mentor {
+        max-width: 42vw;
+        border-radius: 210px;
+    }
+    .mentor_mobile{
+        font-size: 15px;
+    }
+    .button_telegram{
+        font-size: 11px;
     }
 }   
