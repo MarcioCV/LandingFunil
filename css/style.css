@@ -241,12 +241,13 @@ a {
     flex-direction: column;
 }
 
-.Mynavbar {
+.mynavbar {
     padding-top: 20px;
     height: 90px;
     background-color: rgba(0, 0, 0, 0.6);
     position: fixed;
     width: 100%;
+    z-index: 999;
 }
 
 .apresentation-text {
@@ -503,7 +504,7 @@ a {
 
 .button_telegram{
     width: 27vw;
-    font-size: 20px;
+    font-size: 1vw;
     background: rgb(0, 123, 139) !important;
     display: flex;
     justify-content: space-between;

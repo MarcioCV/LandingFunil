@@ -158,7 +158,6 @@
         font-size: 2px;
         font-weight: 900;
         width: 90vw !important;
-        height: 36vh !important;
     }
 
     .button-transparent {
@@ -173,15 +172,6 @@
     #paragraph {
         text-decoration: underline;
         margin: 10px;
-    }
-
-    #linha_completa_desktop {
-        display: none;
-
-    }
-
-    #linha_completa_mobile {
-        display: flex;
     }
 
     #logo {
@@ -352,15 +342,6 @@
         -webkit-text-fill-color: transparent;
         margin: 10px;
         font-weight: bolder;
-    }
-
-    #linha_completa_desktop {
-        display: none;
-
-    }
-
-    #linha_completa_mobile {
-        display: flex;
     }
 
     #logo {
