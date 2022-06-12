@@ -45,7 +45,6 @@ a {
 
 .video_review {
     margin-top: 8vh;
-    width: 85vw;
     height: 80vh;
 }
 
@@ -128,7 +127,7 @@ a {
     background-color: rgba(0, 0, 0, 0.6);
     flex-direction: row;
     width: 100vw;
-    /* height: 68vh; */
+     height: 100vh;
     z-index: 999;
     /* margin-top: 0vh; */
 }

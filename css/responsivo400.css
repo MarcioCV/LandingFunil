@@ -1,10 +1,33 @@
 @media only screen and (max-width: 414px) {
-    .card-content{
+    .card-content {
         width: 30vw;
         height: 176px;
         background-color: transparent;
     }
-    .img_depoimentos{
+
+    .img_depoimentos {
         display: none !important;
+    }
+
+    #carouselExampleIndicators {
+        width: 100vw;
+    }
+
+    iframe {
+        width: 75vw !important;
+        height: 55vw !important;
+        border-radius: 10px;
+    }
+    .video_review {
+        margin-top: 20vh;
+        height: 70vh;
+    }
+
+    .close_video {
+        /* margin: 39px; */
+        cursor: pointer;
+        width: 50px;
+        margin-top: 120px;
+        margin-right: 50px;
     }
 }

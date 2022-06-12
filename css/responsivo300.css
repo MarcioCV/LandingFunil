@@ -64,8 +64,12 @@
         width: 59vw !important;
         height: 42px !important;
     }
-    .carouselExampleIndicators{
-        height: 100px;
-        width: 100px;
+    #carouselExampleIndicators {
+        width: 100vw;
     }
-}
+    iframe {
+        width: 75vw !important;
+        height: 55vw !important;
+        border-radius: 10px;
+    }
+}   
