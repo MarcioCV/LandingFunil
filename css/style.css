@@ -247,7 +247,7 @@ a {
     background-color: rgba(0, 0, 0, 0.6);
     position: fixed;
     width: 100%;
-    z-index: 999;
+    z-index: 998;
 }
 
 .apresentation-text {
