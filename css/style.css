@@ -45,6 +45,7 @@ a {
 
 .video_review {
     max-width: 450px;
+    margin-top: 8vh;
 }
 
 .active {
@@ -105,8 +106,11 @@ a {
 }
 
 .div_button_story {
-    height: 90%;
-    margin-left: 40px;
+    position: absolute;
+    width: 370px;
+    display: flex;
+    justify-content: end;
+    margin-top: 5vh;
 }
 
 .close_video {
@@ -119,12 +123,13 @@ a {
     display: none;
     position: fixed;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     background-color: rgba(0, 0, 0, 0.6);
     flex-direction: row;
     width: 100vw;
-    height: 100vh;
+    /* height: 68vh; */
     z-index: 999;
+    /* margin-top: 0vh; */
 }
 
 #menu {
