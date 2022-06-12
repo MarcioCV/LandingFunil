@@ -484,10 +484,8 @@
 
     .div_button_story {
         position: absolute;
-        width: 370px;
+        width: 430px;
         display: flex;
         justify-content: end;
-        margin-top: 3vh;
-        margin-right: 30px;
     }
 }
