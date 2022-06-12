@@ -1,5 +1,7 @@
 @media only screen and (max-width: 900px) {
-
+    html{
+        background: black !important;
+    }
     ol,
     ul {
         padding: 0px !important;
