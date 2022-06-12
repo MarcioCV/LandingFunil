@@ -44,8 +44,9 @@ a {
 }
 
 .video_review {
-    max-width: 450px;
     margin-top: 8vh;
+    width: 85vw;
+    height: 80vh;
 }
 
 .active {
