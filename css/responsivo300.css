@@ -24,14 +24,48 @@
     } 
 
     .h-2_mobile {
-        height: 9vh;
+        /* height: 9vh; */
         font-size: 19px;
         font-weight: 900;
-        width: 37vh;
+        width: 70vw;
     }
     .gradient_mobile {
         font-size: 21px;
         font-weight: bold;
     }
-
+    .img_depoimentos{
+        width: 30vw;
+        height: 176px;
+    }
+    .card-content{
+        width: 30vw;
+        height: 176px;
+        background-color: transparent;
+    }
+    .img_depoimentos{
+        display: none !important;
+    }
+    .stars{
+        max-width: 26vw;
+    }
+    .button-gradient {
+        margin: 10px;
+        justify-content: space-between;
+        font-size: 13px;
+        font-weight: 900;
+        width: 59vw !important;
+        height: 36px !important;
+    }
+    .button-transparent {
+        margin: 10px;
+        justify-content: space-between;
+        font-size: 14px;
+        font-weight: 900;
+        width: 59vw !important;
+        height: 42px !important;
+    }
+    .carouselExampleIndicators{
+        height: 100px;
+        width: 100px;
+    }
 }

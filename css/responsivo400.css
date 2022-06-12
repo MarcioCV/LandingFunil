@@ -1,0 +1,10 @@
+@media only screen and (max-width: 414px) {
+    .card-content{
+        width: 30vw;
+        height: 176px;
+        background-color: transparent;
+    }
+    .img_depoimentos{
+        display: none !important;
+    }
+}
