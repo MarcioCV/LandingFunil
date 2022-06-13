@@ -63,4 +63,7 @@
     .button_telegram{
         font-size: 11px;
     }
+    .mynavbar {
+        background-color: rgba(0, 0, 0, 0.9);
+    }
 }

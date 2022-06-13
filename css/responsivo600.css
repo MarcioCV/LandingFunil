@@ -79,4 +79,7 @@
         margin: 10px;
         font-weight: bolder;
     }
+    .mynavbar {
+        background-color: rgba(0, 0, 0, 0.9);
+    }
 }

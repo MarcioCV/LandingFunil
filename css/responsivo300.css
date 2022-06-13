@@ -2,7 +2,7 @@
     .Mynavbar {
         padding-top: 20px;
         height: 77px;
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.9);
         position: fixed;
         width: 100%;
     }
@@ -88,4 +88,5 @@
     .button_telegram{
         font-size: 11px;
     }
+    
 }   
