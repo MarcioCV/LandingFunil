@@ -10,7 +10,7 @@
         display: flex;
         position: absolute;
         width: 100%;
-        top: 77px;
+        top: 66px;
         right: 0px;
         background-color: rgba(0, 0, 0, 0.6);
         transition: 0.6s;
@@ -30,8 +30,7 @@
         width: 70vw;
     }
     .gradient_mobile {
-        font-size: 21px;
-        font-weight: bold;
+        font-size: 23px;
     }
     .img_depoimentos{
         width: 30vw;
