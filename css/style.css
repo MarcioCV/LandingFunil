@@ -9,6 +9,8 @@ html {
     background: linear-gradient(197deg, rgba(205, 88, 48, 1) 0%, rgba(138, 1, 59, 1) 13%, rgba(136, 8, 8, 1) 18%, rgba(0, 0, 0, 1) 35%) !important;
     background-attachment: fixed !important;
     background-repeat: no-repeat !important;
+    background-size: cover !important;
+
 }
 
 body {
