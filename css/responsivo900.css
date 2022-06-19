@@ -1,11 +1,4 @@
 @media only screen and (max-width: 900px) {
-    html {
-        /* background: black !important; */
-        background-image: url("../img/escuro.png") !important;
-        background-position:top !important;
-        background-size: cover !important;
-        opacity: 1px !important;
-    }
 
     ol,
     ul {
